@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuários</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    
+</head> 
+<header><a href='Gestão de usuários.html'>Ir para a página Gestão de usuário</a></header>
+<body>
+  <title>Cadastro de usuários</title>
+    <div class="container">
+        <div class="header">
+            <h2>Cadastro</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="nome">Nome do usuário</label>
+                <input type="text" id="nome" placeholder="Digite seu nome"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email" />
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="nascimento">Nascimento</label>
+                <input type="date" id="nascimento" placeholder="Digite sua data de nascimento"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" placeholder="Digite seu endereço"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="passwordConfirm">Confirme a Senha</label>
+                <input type="password" id="passwordConfirm" placeholder="Digite sua senha novamente"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script
+        scr="https://kit.fontawesome.com/f9e19193d6.js"
+        crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="/src/App.jsx"></script>
+  </body>
+</html>
